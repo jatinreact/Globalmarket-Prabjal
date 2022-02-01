@@ -1,0 +1,97 @@
+.b2b_main_container{
+
+    width: 100vw;
+    max-width: 100%;   
+    background-color: #fff;
+
+    p{
+        font-size: .75rem;
+        color: grey;
+    }
+
+}
+.b2b_second_wrapper{
+    
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .left_side_container{
+        padding: 0 20px 40px 20px;
+  
+        width: 45%;
+
+        h4{
+            margin-bottom: 16px;
+        }
+
+        p{
+            font-size: .75rem;
+            color: grey;
+        }
+
+        @media only screen and (max-width: 800px){
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 800px){
+            width: 100%;
+
+            p{
+                font-size: .75rem;
+            }
+        }
+
+        
+    }
+    .right_side_container{
+        width: 45%;
+        padding: 0 20px 0px 20px;
+
+        h4{
+            margin-bottom: 10px;
+        }
+
+        p{
+            color: #868686;
+            margin-bottom: 10px;
+
+            span{
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        @media only screen and (max-width: 800px){
+            width: 100%;
+
+            p{
+                font-size: .75rem;
+            }
+        }
+    }
+}
+
+.lower_part{
+    padding: 0 40px 40px 40px;
+    margin-top: 10px;
+    p{
+        color: #868686;
+        margin-top: 20px;
+
+    }
+
+
+    @media only screen and (max-width: 800px){
+
+        p{
+            font-size: .75rem;
+        }
+    }
+}
+
+// --------media@-----------
+
+.left_side_container{
+   
+}

@@ -1,0 +1,191 @@
+.sidebar_container{
+    width: 100vw;
+    // height: 100vh;
+    max-width: 100%;
+   
+}
+.allContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.slider{
+    width: 50%;
+    margin: 20px;
+
+    @media screen and (max-width: 1010px){
+        // border: 1px solid;
+        width: 100%;
+        height: 300px;
+        margin: auto;
+   
+      }
+
+    // @media screen and (max-width: 884px){
+    //     width: 30%;
+    //     height: 200px;
+   
+    //   }
+    //   @media screen and (max-width: 700px){
+    //     width: 100%;
+    //     margin: 30px;
+    //     height: 300px;
+   
+    //   }
+
+    
+
+
+    
+}
+
+.sidebar_menu{
+
+    width: 20%;  
+    border: 1px solid lightgray;
+
+    @media screen and (max-width: 1010px){
+        display: none;
+   
+      }
+
+      .menu_details{
+        padding-bottom: 20px;
+        width: 100%;
+        // border-left: 1px solid #cecccc;
+        // border-right: 1px solid #cecccc;
+       
+        // border-bottom: 1px solid #cecccc;
+        /* height: auto; */
+        // border-bottom-right-radius: 5px;
+        // border-bottom-left-radius: 5px;
+      }
+
+   
+}
+.menu_details{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+
+   
+}
+
+.menu_details li a{
+    text-decoration: none;
+    color: #363636;
+    font-size: 0.9rem;
+    line-height: 40px;
+
+}
+// ===========slider==========
+.slider_content{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    // padding: 30px;
+}
+.slider_content img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+// -----------RightSide----------------
+.RightSide_container{
+    width: 20%;
+   
+    // border: 1px solid #b4b3b3;
+    display: flex;
+    flex-direction: column;
+    
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+   
+    height: 100%;
+    border-radius: 5px;
+    padding: 20px;
+
+    @media screen and (max-width: 1010px){
+        margin: 20px;
+        width: 100%;
+   
+      }
+
+      
+
+
+    
+}
+.RightSide_container input{
+    padding: 8px 20px;
+    margin: 5px 0;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.phonenmbr{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+}
+
+.phonenmbr input{
+    border: 1px solid transparent;
+}
+
+.phonenmbr img{
+    width: 10%;
+    height: 10%;
+    padding: 0 3px;
+}
+
+.country_code{
+    height: 100%;
+    // width: 100%;
+    background-color: whitesmoke;
+}
+
+.submit_btn{
+    padding: 8px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+
+        &:hover{
+            background-color: #f35;
+
+        }
+}
+
+
+// --------stickylogo--------
+
+.stick_logo{
+    top: 50%;
+    position: fixed;
+    right: -40px;
+    background-color: #1fd85d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 1010px){
+    .slider{
+        margin: 10px;
+    }
+    
+
+  }

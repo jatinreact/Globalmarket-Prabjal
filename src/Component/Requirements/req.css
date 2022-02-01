@@ -1,0 +1,121 @@
+.req_main_container{
+    width: 100%;
+    height: 450px;
+    padding: 0 20px;
+    /* background-color: #9f9fa3; */
+    color: #fff;
+}
+.req_second_container{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    background-color: #0a4493;
+    color: white;
+    display: flex;
+}
+.left_req_container{
+    max-width: 50%;
+}
+.left_container_header{
+    padding: 50px;
+}
+
+.line hr{
+    margin-left: 50px;
+    margin-top: -50px;
+    width: 60%;
+    height: 5px;
+    background-color: rgb(204, 87, 87);
+    border: none;
+
+    
+}
+.paragraph{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 70px;
+    align-items: center;
+}
+.paragraph p{
+    line-height: 25px;
+}
+
+.right_container{
+    margin-top: 20px;
+    margin-right: 20px;
+    /* padding: 20px; */
+    background-color: #fff;
+    color: black;
+    height: 90%;
+    width: 100%;
+}
+.right_header h3{
+   padding-top: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+}
+
+.imput_right_div{
+    max-width: 90%;
+}
+.imput_right_div input{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(177, 172, 172);
+    border-radius: 5px;
+
+}
+.quentity_input input{
+    width: 30%;
+    border-radius: 0;
+}
+.quentity_input .quentity_input2{ 
+    margin-left: -20px;
+   
+}
+.quentity_input .quentity_input3{ 
+    width: auto;
+   
+}
+.select_payments{
+    padding-left: 20px;
+    padding-top: 15px;
+    
+}
+.input_checkbox{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.describe_box input{
+    padding: 20px;
+    width: 90%;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+
+    
+}
+.Req_btn{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fd3456;
+    color: #ffff;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.select_input{
+    width: 70px;
+    outline: none;
+    height: 36px;
+    border: 1px solid rgb(173, 173, 173);
+    color: gray;
+
+}

@@ -1,0 +1,179 @@
+.main_container{
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(79, 76, 240);
+    margin-bottom: 20px;
+  
+}
+
+    .header_title{
+        
+        padding-top: 50px;
+        padding-bottom: 20px;
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.5rem;
+
+        @media only screen and (max-width: 784px){
+    
+            font-size: 1rem;
+     }
+        @media only screen and (max-width: 403px){
+    
+            font-size: 0.8rem;
+     }
+
+        
+       
+    }
+// 
+.card_container{
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+
+    flex-wrap: wrap;
+
+    .card_details_holder{
+        margin: 10px ;
+        border: 1px solid hsl(60, 14%, 95%);
+        width: 300px;
+        height:280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+
+
+        @media only screen and (max-width: 1062px){
+            width: 250px;
+          
+            display: flex;        
+            align-items: center;
+            margin: 5px;
+
+        }
+        // @media only screen and (max-width: 1005px){
+        //     width: 270px;
+            
+        //     display: flex;        
+        //     align-items: center;
+        //     margin: 0;
+
+        // }
+        @media only screen and (max-width: 784px){
+            width: 100%;
+            height: 150px;
+            display: flex;        
+            align-items: center;
+            margin: 0;
+
+        }
+       
+
+
+    }
+}
+
+.lower_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+    .play_btn{
+        width: 250px;
+        padding:10px 30px;
+        margin-right: 10px;
+        background-color: #f35;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        color: #fff;
+
+        &:hover{
+
+            background-color: #fff;
+            color: blue;
+
+
+        }
+
+        @media only screen and (max-width: 540px){
+                width: 140px;
+                padding:0 3px;
+                padding:10px 0;
+            
+        }
+
+        
+    }
+
+    .know_btn{
+        width:250px ;
+        padding:10px 30px;
+        margin-left: 10px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+
+        &:hover{
+            background-color: #f35;
+
+        }
+    }
+
+}
+
+.card_header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 999px;
+    margin: 20px;
+
+    img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    @media only screen and (max-width: 784px){
+
+        width: 50px;
+        height: 50px;
+        margin: 8px;
+
+    }
+    
+}
+.title_header{
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 784px){
+           margin-bottom: 5px; 
+           font-size: 0.8rem;
+    }
+    @media only screen and (max-width: 375px){
+          margin: 0;
+          
+    }
+
+}
+.description{
+   text-align: center;   
+    padding: 0 20px;
+
+    @media only screen and (max-width: 784px){
+    
+        font-size: 0.75rem;
+ }
+
+    
+}

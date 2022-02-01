@@ -1,0 +1,30 @@
+.submit_btn{
+    cursor: pointer;
+    border: 1px solid transparent;
+
+    &:hover{
+        background-color: #f43;
+    }
+}
+
+.create_account_btn{
+    cursor: pointer;
+    &:hover{
+        background-color: #fff;
+        color: black;
+
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 20px;
+  }
+  
+   
+  ::-webkit-scrollbar-thumb {
+    background: #f35; 
+  }
+  
+

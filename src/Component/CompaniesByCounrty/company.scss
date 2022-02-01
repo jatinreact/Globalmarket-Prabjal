@@ -1,0 +1,117 @@
+.company_main_wrapper{
+    // border: 1px solid;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+
+
+}
+
+.Country_name_header{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #272727;
+  
+   
+}
+
+.company_flages{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    overflow-x: scroll;
+
+    .flag_holder{
+        
+        width: 80px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+   
+        cursor: pointer;
+
+        .flag_imgs{
+            display: flex;
+            justify-content: center;
+       
+            width: 100%;
+            height: 50%;
+            padding: 2px 12px;
+            margin-bottom: 5px;
+         }
+        
+    }
+}
+
+.view_btn_{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    button{
+        padding: 12px 70px;
+        cursor: pointer;
+        background-color: rgb(23, 23, 245);
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        transition: 0.4s ease;
+
+        &:hover{
+            background-color: #f43;
+        }
+    }
+}
+
+.flag_holder:nth-child(5){
+    width: 100px ;
+   
+}
+.flag_holder:nth-child(7){
+  
+    
+    img{
+        border: 1px solid #b4b2b2;
+    }
+}
+
+.flag_holder{
+
+    
+        transition: 0.3s ease;
+        &:hover{
+            color: #f43;
+        }
+    
+
+}
+
+.country_name{
+    p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+// .container{
+    
+//     border: 1px solid;
+//     display: flex;
+// }
+
+
+
+
+
